@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+	<head>
+	<!--Avenging Coders: Alicia Wood, Emily Johnson, Mercedes Gutierrez, Catherine Jones
+		 DiamondHacksNCSU2016 4/16/2016
+		 supersuit_reg.html
+	-->
+		<title>Registration for SuperSuit</title>
+		
+		<link href="mainstyles.css" rel="stylesheet" /> 
+		
+		<script src="error.js"></script>									<!-- JavaScripts -->
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<h1>SuperSuit Registration Page!</h1>
+		</header>
+		
+		<br>	
+		
+		<section id="centerstage">
+			<form action="registraction_proc.php" method="POST">			<!-- start of form -->
+				<label>						<!-- username field -->
+					Name:
+					<input type="text" name="name" required="required">
+				</label>
+
+				<br>							<!-- line breaks between input field sections -->
+				<br>
+				
+				<label>						<!-- username field -->
+					Enter your email address:
+					<input type="email" name="email" required="required">
+				</label>
+
+				<br>							<!-- line breaks between input field sections -->
+				<br>
+
+				<label>						<!-- password field -->
+					Create a password:
+					<input type="text" name="password" required="required">
+				</label>
+
+				<br>							<!-- line breaks between input field sections -->
+				<br>
+
+				<label>						<!-- check password field -->
+					Retype your password:
+					<input type="text" name="passwordCheck" required="required">
+				</label>
+
+				<br>							<!-- line breaks between input field sections -->
+				<br>
+				
+				<input type="submit" value="Register">			<!-- register button -->
+			</form>
+		</section>
+	</body>
+</html>

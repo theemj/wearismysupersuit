@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+	<head>
+	<!--Avenging Coders: Alicia Wood, Emily Johnson, Mercedes Gutierrez, Catherine Jones
+		 DiamondHacksNCSU2016 4/17/2016
+		 changeMeasurements.html
+	-->
+		<title>Change SuperSuit Measurements</title>
+		
+		<link href="hope.css" rel="stylesheet" /> 
+										<!-- JavaScripts -->
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Measurements</h1>
+			<p>All fields must be filled out.</p>
+		</header>
+		
+		<br>	
+		
+		<section id="centerstage">
+		<img src="SuperSuit.png" />
+		<!-- start of form; upon clicking button, send to profile page -->
+			<form>
+				<fieldset>
+				<label>Neckline:</label>				
+					<input type="text" name="neck" required="required"/>
+				
+				<label>	Bust:</label>					
+					<input type="text" name="bust" required="required"/>
+				
+				<label>Waist:</label>				
+					<input type="text" name="waist" required="required"/>
+
+				<label>Hips:</label>					
+					<input type="text" name="hips" required="required"/>
+				
+				<label>	Inseam:</label>				
+					<input type="text" name="inseam" required="required"/>
+
+				<label>Outseam:</label>				
+					<input type="text" name="outseam" required="required"/>
+					
+				<button id="update" onClick="updateData()">Update</button>
+				</fieldset>
+			</form>
+		</section>
+	</body>
+		<script src="measurementChange.js"></script>					<!-- run login.js after webpage loaded -->
+</html>

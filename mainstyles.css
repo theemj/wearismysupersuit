@@ -1,0 +1,53 @@
+/* supersuit project's main stylesheet page */
+
+/* Body Styles */
+body
+{
+	background-color: rgb(102, 163, 255);
+	font-family: Helvetica, sans-serif ;
+}
+
+			/*objects to be in the center of the webpage*/
+#centerstage
+{
+	margin: 10px auto;						/*center the object*/
+	padding: 10px; 
+	width: 90%;
+	min-height: 80%;
+	
+	text-align: center;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.5);		/*see through white background*/
+	box-shadow: -10px 10px 5px rgba(195, 195, 195, 0.5);
+}
+
+/* Table Styles */
+table
+{
+	margin: 10px auto;						/*center the form */
+}
+table, td
+{
+	border: 1px solid black;				/*borders*/
+	border-collapse: collapse;
+	
+	padding: 10px;
+	
+	text-align: center;
+}
+
+/* Form Styles */
+form
+{
+	width: 50%;
+	margin: 10px auto;						/*center the form */
+	padding: 24px 16px;
+	
+	background: rgba(102, 163, 255,0.3);		/*see through white background*/
+}
+
+input[type=text], input[type=password], input[type=email]
+{
+	border: none;
+	border-bottom: 2px solid black;
+}

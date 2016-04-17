@@ -1,0 +1,57 @@
+<!DOCTYPE>
+	
+<html>
+	<head>
+	<!-- Avenging Coders: Alicia Wood, Emily Johnson, Mercedes Gutierrez, Catherine Jones
+		 DiamondHacksNCSU2016 4/16/2016
+		 supersuit_login.html
+	-->
+		<title>Login to SuperSuit</title>
+		
+		<link href="mainstyles.css" rel="stylesheet" /> 
+		
+		<script src="error.js"></script>									<!-- JavaScripts -->
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	</head>
+	
+	<body>
+		var myFirebaseRef = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com/");
+	
+		<header>
+			<h1>SuperSuit Login Page!</h1>
+		</header>
+		
+		<br>							<!-- line break -->
+		
+		<section id="centerstage">							<!-- main part of body -->
+			<form action="supersuit_profile.html">					<!-- for now, send straight to profile page -->
+			<!--<form action="login_proc.php" method="POST">-->			<!-- start of form -->
+				<label id="email">						<!-- email field -->
+					Email
+					<br>						<!-- line break -->
+					<br>
+					<input type="text" name="email" required="required">
+				</label>
+
+				<br>							<!-- line breaks between input field sections -->
+				<br>
+
+				<label id="pass">						<!-- password field -->
+					Password
+					<br>						<!-- line break -->
+					<br>
+					<input type="password" name="password" required="required">
+				</label>
+
+				<br>
+				<br>
+
+				<input type="submit" id="sign_in" value="Sign In">			<!-- log in button -->
+			</form>						<!-- end of form -->
+
+			<br>							<!-- line break -->
+
+			<p>No account?  Register <a href="supersuit_reg.html">here</a>.</p>	<!-- link to registration page -->
+		</section>
+	</body>
+</html>
