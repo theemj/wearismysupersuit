@@ -1,0 +1,114 @@
+/* Body Styles */
+body
+{
+	/*background-color: rgb(102, 163, 255); */
+	background-color: SlateGray; 
+	font-family: Helvetica, sans-serif ;
+}
+
+img
+{
+	display: block;
+	clear: left;
+	float:left;
+}
+
+/* Table Styles */
+table
+{
+
+	margin: 10% auto;
+	border-radius: 25px;				/*center the form */
+}
+table, td
+{
+	border-collapse: collapse;
+	border-radius: 25px;				/*center the form */
+	text-align: center;
+}
+
+td
+{
+	background: white;
+	padding: 10px;
+	margin: 50px;
+}
+
+h3
+{
+	position: fixed;
+	margin-bottom: 50px;
+	display: block;
+	float: center;
+ 
+    width: 100%;
+    left: 0;
+    margin-top: -10;
+}
+
+.labels
+{
+	background: none;
+}
+
+/*objects to be in the center of the webpage*/
+#centerstage
+{
+	margin: .5% auto;						/*center the object*/
+	padding: 10px; 
+	width: 90%;
+	min-height: 80%;
+	
+	text-align: center;
+	border-radius: 25px;
+	background: rgba(255,255,255,0.5);		/*see through white background*/
+	box-shadow: -10px 10px 5px rgba(195, 195, 195, 0.5);
+}
+
+/*Field set styles*/
+fieldset{
+	background: rgba(102, 163, 255,0.3);		/*see through white background*/
+	/*box-shadow: -10px 10px 5px rgba(195, 195, 195, 0.5);*/
+	
+	width: 25%;
+	margin: 10% auto;
+	border-radius: 25px;				/*center the form */
+	padding: 20px;
+	float: center;
+}
+
+/*Label Styles*/
+label{
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/*Input Control Styles*/
+input{
+	display: block;
+	float: left;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+#upload
+{
+	display: block;
+	float: right;
+	margin-right: 5%;
+}
+
+/*Button Styles*/
+form p{
+	text-align: center;
+}
+input[type=text], input[type=password], input[type=email]
+{
+	border: none;
+	border-bottom: 2px solid black;
+}
+
